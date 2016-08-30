@@ -10,8 +10,11 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '986056021430606');
-fbq('set', '986056021430606', {em: 'abc@xyz.com', ph: '16501234567'});
-fbq('track', "ViewContent", {order_id: '12345'});</script>
+fbq('track', "PageView");
+
+fbq('init', '986056021430606', {em: 'abc@xyz.com', ph: '16501234567'});
+fbq('track', "ViewContent", {order_id: '12345'});
+</script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=986056021430606&ev=PageView&noscript=1"
 /></noscript>
