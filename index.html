@@ -12,13 +12,16 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '986056021430606');
 fbq('track', "PageView");
 
-fbq('init', '986056021430606', {em: 'abc@xyz.com', ph: '16501234567'});
+fbq('set', 'em', 'abc@xyz.com', '986056021430606');
 fbq('track', "ViewContent", {order_id: '12345'});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=986056021430606&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
+
+<iframe>
+</iframe>
 </head>
 <body>
 
